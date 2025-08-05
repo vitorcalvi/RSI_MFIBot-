@@ -1,7 +1,7 @@
 class RiskManager:
     def __init__(self):
         # Simple fixed risk approach
-        self.symbol = "ETH/USDT"  # Symbol moved here
+        self.symbol = "BNB/USDT"  # Symbol moved here
         self.linear = self.symbol.replace('/', '')
         
         # Fixed risk per trade
